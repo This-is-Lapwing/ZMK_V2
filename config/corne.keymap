@@ -33,15 +33,16 @@
             key-positions = <27 28>;
         };
     };
-/ {
-    kscan: kscan {
-        compatible = "zmk,kscan-gpio-matrix";
-        diode-direction = "col2row";
-        wakeup-source;
 
-        ...
+    / {
+        kscan: kscan {
+            compatible = "zmk,kscan-gpio-matrix";
+            diode-direction = "col2row";
+            wakeup-source;
+
+            ...
+        };
     };
-};
 
     behaviors {
         hmr: hmr {
@@ -100,7 +101,7 @@
 
             bindings = <
 &trans          &kp EXCL         &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS         &kp PIPE  &kp LPAR  &kp RPAR  &trans
-&bootloader     &rgb_ug RGB_BRI  &trans  &trans    &trans    &trans       &trans        &trans           &trans    &trans    &trans    &kp BACKSPACE
+&trans          &rgb_ug RGB_BRI  &trans  &trans    &trans    &trans       &trans        &trans           &trans    &trans    &trans    &kp BACKSPACE
 &bt BT_CLR_ALL  &rgb_ug RGB_TOG  &trans  &trans    &trans    &kp GRAVE    &kp LEFT_WIN  &kp PRINTSCREEN  &kp F5    &trans    &trans    &bootloader
                                          &kp LGUI  &trans    &kp SPACE    &kp RET       &trans           &kp RALT
             >;
