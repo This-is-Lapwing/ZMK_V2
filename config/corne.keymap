@@ -34,13 +34,6 @@
         };
     };
 
-/ {
-        kscan: kscan {
-            compatible = "zmk,kscan-gpio-matrix";
-            wakeup-source;
-        };
-    };
-
     behaviors {
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
