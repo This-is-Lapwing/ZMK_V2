@@ -75,7 +75,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans       &kp ASTERISK  &trans          &kp UP_ARROW    &trans           &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp PLUS   &trans
+&none        &kp ASTERISK  &trans          &kp UP_ARROW    &trans           &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp PLUS   &trans
 &kp AT_SIGN  &kp SLASH     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp KP_N4        &kp KP_N5  &kp KP_N6  &kp MINUS  &kp BACKSPACE
 &trans       &kp PIPE      &kp AMPERSAND   &kp MINUS       &kp UNDERSCORE   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3  &kp EQUAL  &trans
                                            &kp LGUI        &trans           &kp SPACE               &kp RET                &kp DOT          &kp KP_N0
